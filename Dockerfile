@@ -4,8 +4,10 @@ WORKDIR /app
 
 COPY . .
 
-RUN go build -o todo-api
+RUN go build -o hello-world
 
 EXPOSE 8080
+
+CMD ./hello-world
 
 
